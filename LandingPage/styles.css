@@ -49,6 +49,7 @@ ul {
 
 @media only screen and (max-width: 360px){
 #video {
+    display: flex;
     width: 100%;
     height: auto;
     }
