@@ -1,0 +1,55 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #FFFFFF;
+    }
+}
+
+/* Full height image header */
+
+.logo {
+    background-position: center;
+    background-size: cover;
+    background-image: url("pot.jpg");
+    min-height: 100%;
+
+#header-img {
+  background-position: center;
+  background-size: cover;
+    @media (max-width: 650px) {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+
+    }
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+ul {
+  list-style-type: none;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  margin:auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+}
+
+@media only screen and (max-width: 360px){
+#video {
+    width: 100%;
+    height: auto;
+    }
+}
