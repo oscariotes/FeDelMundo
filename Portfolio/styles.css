@@ -1,3 +1,9 @@
+body {
+  background-color: #e3f0de;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -39,4 +45,46 @@ li a:hover:not(.active) {
   margin-top: 10vh;
   display: block;
   height: 100vh;
+  float: right;
+  text-align: center;
+
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ justify-content: center;
+ padding:58px 16px;
+ flex-flow: row wrap;
+}
+
+@media (max-width: 400px) {
+  .project-tile {
+    display: block;
+    border: solid;
+    color: black;
+    margin: 10px;
+    padding: 25px;
+    flex: 1;
+  }
+}
+.project-tile {
+  border: solid;
+  color: black;
+  margin: 10px;
+  padding: 25px;
+  flex: 1;
+  background-color: #ebdef0;
+  display: grid;
+  border-radius: 5px;
+
+}
+
+.project-tile:hover:not(.active) {
+  background-color: #d3c7d8;
+
+.about .contact {
+  flex: 1;
+
 }
